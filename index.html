@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f7a7f830e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Home | Colosseum</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/logo3.png" alt="this is my hero image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">VISIT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Discover <span class="h1-tech">Tech</span> And Learn New <span class="h1-science">Science</span></h1>
+            <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde. Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde.<br> Ex dolorem aliquam in
+                accusantium ratione ad enim obcaecati vel quos impedit ex temporibus libero.</p>
+            <a href=""class="hero-btn">Visit Us To Learn More</a>
+        </div>
+    </section>
+
+    <section class="playground">
+        <h2><span class="h-playground">Playgrounds</span> What We Offer!</h2>
+        <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde. Ex dolorem aliquam in
+            accusantium ratione ad enim obcaecati vel quos impedit ex temporibus libero.</p>
+        <div class="row">
+            <div class="playground-colum">
+                <h3>Playground for Kids</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde. Ex dolorem aliquam in
+                    accusantium ratione ad enim obcaecati vel quos impedit ex temporibus libero.</p>
+            </div>
+            <div class="playground-colum">
+                <h3>Playground for Adults</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde. Ex dolorem aliquam in
+                    accusantium ratione ad enim obcaecati vel quos impedit ex temporibus libero.</p>
+            </div>
+            <div class="playground-colum">
+                <h3>Playground for Seniors</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde. Ex dolorem aliquam in
+                    accusantium ratione ad enim obcaecati vel quos impedit ex temporibus libero.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="active">
+        <h2>Our Activities</h2>
+        <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde.</p>
+
+        <div class="row">
+            <div class="active-colum">
+                <img src="assets/geometry.jpg" alt="this a picture of geometry">
+                <div class="layer">
+                    <h3>Geometry</h3>
+                </div>
+            </div>
+            <div class="active-colum">
+                <img src="assets/tech.jpg" alt="this a picture of geometry">
+                <div class="layer">
+                    <h3>Tech</h3>
+                </div>
+            </div>
+            <div class="active-colum">
+                <img src="assets/science-kid.jpg" alt="this a picture of geometry">
+                <div class="layer">
+                    <h3>Science</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <h2>Our Locations</h2>
+        <div class="row">
+            <div class="location-colum">
+                <img src="assets/oslo.jpg" alt="This is i picture of oslo">
+                <h3>Oslo</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde.</p>
+            </div>
+            <div class="location-colum">
+                <img src="assets/bergen.jpg" alt="This is i picture of bergen">
+                <h3>Bergen</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde.</p>
+            </div>
+            <div class="location-colum">
+                <img src="assets/trondheim.jpg" alt="This is i picture of trondheim">
+                <h3>Trondheim</h3>
+                <p>Lorem ipsum dolor sit amet. Ex quis ullam aut dolore explicabo sit quia unde.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2></h2>
+        <a href="">CONTACT US</a>
+    </section>
+
+<script>
+
+       navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
