@@ -11,47 +11,77 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="assets/logo3.png" alt="this is my hero image"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="">VISIT</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>About Us</h1>
-    </section>
 
-    <section class="about-us">
-        <div class="row">
-            <div class="about-colum">
-                <h2>How Colosseum Started</h2>
-                <p>Lorem ipsum dolor sit amet. Eos dolore maiores ex cupiditate distinctio ea corrupti voluptatem qui
-                    facilis rerum.</p>
-                <a href="" class="hero-btn yellow-btn">Learn More</a>
-            </div>
-            <div class="about-colum">
-                <img src="assets/kids-museum.webp" alt="about picture">
-            </div>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="assets/logo3.png" alt="this is my hero image"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">VISIT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
         </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
 
-    </section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-colum">
+            <h2>How <span class="h-playground">Colosseum</span> Started</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet eget purus quis faucibus. Sed sit
+                amet libero sodales, condimentum massa non, vulputate ex. Integer sit amet tempor nisi, vitae vulputate
+                tortor. Suspendisse eleifend enim ac libero volutpat, at varius ex faucibus. Curabitur facilisis luctus
+                porta. Curabitur ligula nisi, laoreet in faucibus at, malesuada nec tortor. Aliquam odio diam, dapibus
+                sit amet felis sit amet, dapibus sollicitudin orci. Aenean egestas congue erat quis pharetra.</p>
+            <a href="" class="hero-btn yellow-btn">Learn More</a>
+        </div>
+        <div class="about-colum">
+            <img src="assets/kids-museum.webp" alt="about picture">
+        </div>
+    </div>
+</section>
 
+<footer>
+    <div class="footer-nav">
+        <ul>
+            <li>Home</li>
+            <li><a href="">Contact</a></li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <br>
+    <div class="footer-icons">
 
+        <span class="icon-fb"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></span>
+        <span class="icon-tw"><a href="https://x.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></span>
+        <span class="icon-ig"><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+    </div>
+    <div class="footer-icons-mobile">
+        <span class="icon-fb"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></span>
+        <span class="icon-tw"><a href="https://x.com" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a></span>
+        <span class="icon-ig"><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></span>
+    </div>
+    <div class="footer-copyright">
+        © 2023 Colosseum
+    </div>
+</footer>
 
 <script>
 
-       navLinks = document.getElementById("navLinks");
-    function showMenu(){
+    navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
         navLinks.style.right = "0";
     }
-    function hideMenu(){
+
+    function hideMenu() {
         navLinks.style.right = "-200px";
     }
 
