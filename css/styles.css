@@ -85,6 +85,7 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 8px;
 }
 .hero-btn:hover{
     border: 1px solid #f5f58d;
@@ -260,4 +261,45 @@ nav .fa-solid{
     color: white;
     margin-bottom: 40px;
     padding: 0;
+}
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../assets/about1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.sub-header h1{
+    margin-top: 100px;
+    font-size: 32px;
+    color: white;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-colum{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-colum img{
+    border-radius: 10px;
+    width: 100%;
+}
+.about-colum h1{
+    padding-top: 0;
+}
+.about-colum p{
+    padding: 15px 0 25px;
+}
+.yellow-btn{
+    border: 1px solid #3d3d23;
+    background: transparent;
+    color: #3d3d23;
+}
+.yellow-btn:hover{
+    color: #e83b3b;
 }

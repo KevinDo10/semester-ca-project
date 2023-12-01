@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f7a7f830e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Home | Colosseum</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo3.png" alt="this is my hero image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">VISIT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-colum">
+                <h2>How Colosseum Started</h2>
+                <p>Lorem ipsum dolor sit amet. Eos dolore maiores ex cupiditate distinctio ea corrupti voluptatem qui
+                    facilis rerum.</p>
+                <a href="" class="hero-btn yellow-btn">Learn More</a>
+            </div>
+            <div class="about-colum">
+                <img src="assets/kids-museum.webp" alt="about picture">
+            </div>
+        </div>
+
+    </section>
+
+
+
+<script>
+
+       navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
