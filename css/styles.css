@@ -374,12 +374,12 @@ a {
         font-size: 16px;
     }
     .footer-icons {
-        font-size: 18px;
+        font-size: 21px;
         gap: 2rem;
     }
 }
-.location {
-     width: 80%;
+.location{
+    width: 80%;
     margin: auto;
     padding: 80px 0;
 }
