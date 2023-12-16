@@ -425,3 +425,41 @@ a {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.playground-offer {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.playground-left {
+    flex-basis: 65%;
+}
+.playground-left img{
+    width: 100%;
+}
+.playground-left h2{
+    color: #3d3d23;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.playground-left p{
+    color: #999;
+}
+.playground-right{
+    flex-basis: 32%;
+}
+.playground-right h3{
+    background: #3d3d23;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.playground-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
